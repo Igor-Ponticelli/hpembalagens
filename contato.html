@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>H&P - Embalagens - Brusque SC</title>
+
+  <!-- <meta name="description" content="">
+  <meta property="og.type" content="website" />
+  <meta property="og.tittle" content="" />
+  <meta property="og.description" content="" />
+  <meta property="og.url" content="" />
+  <meta property="og.image" content="" /> -->
+
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/grid.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/contato.css">
+
+</head>
+
+
+<body>
+
+  <header class="bg-header">
+    <div class="container">
+      <a href="index.html"><span class="grid-4">H&P - Embalagens</span></a>
+      <nav>
+        <ul class="grid-12">
+          <li><a href="/sobre.html">Sobre</a></li>
+          <li><a href="/produtos.html">Produtos</a></li>
+          <li><a href="/producao.html">Produção</a></li>
+          <li><a class="ative" href="/contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="bg-introducao">
+    <div class="container introducao">
+      <h1 class="titulo">Contato</h1>
+    </div>
+  </section>
+
+
+
+  <section class="container ctt">
+    <div class="contato grid-8">
+      <form id="form_orcamento" method="POST" action="./enviar-sendgrid.php" class="contato_form formphp">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+        <label for="telefone" name="telefone">Telefone</label>
+        <input type="text" id="telefone">
+        <label for="espec">Especificações</label>
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
+        <button id="enviar" name="enviar" type="submit" class="btn btn-contato">Enviar</button>
+      </form>
+    </div>
+
+    <div class="contato_dados grid-8">
+      <h3>Dados</h3>
+      <span>+55 21 93223 3232</span>
+      <span>orcamento@bikcraft.com</span>
+      <span>Rua Ali Perto - Botafogo</span>
+      <span>Rio de Janeiro - RJ - Brasil</span>
+
+      <h3>Redes socias</h3>
+      <ul>
+        <li><a href="#"><img src="./img/redes-sociais/facebook.svg" width="32px" height="32px" alt="Facebook"></a></li>
+        <li><a href="#"><img src="./img/redes-sociais/instagram.svg" width="32px" height="32px" alt="Instagram"></a></li>
+        <li><a href="#"><img src="./img/redes-sociais/whats.svg" width="32px" height="32px" alt="Whatsapp"></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="map">
+    <a href="https://www.google.com.br/maps/place/R.+Lindolfo+Hip%C3%B3lito+Coelho,+78+-+Limoeiro,+Brusque+-+SC,+88356-448/@-27.0493023,-48.878025,19z/data=!3m1!4b1!4m5!3m4!1s0x94df378b29d631e3:0x3342328272391518!8m2!3d-27.0493035!4d-48.8774778" target="_blank"><img src="./img/mapa.png" alt="Mapa da empresa"></a>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-footer">
+    <div class="container">
+      <div class="footer-sobre grid-8">
+        <h2 class="subtitulo-footer">Sobre</h2>
+        <p>Aqueles que ainda não possuem um produto da HP, não sabem o que estão perdendo.</p>
+      </div>
+      <div class="grid-4">
+        <h2 class="subtitulo-footer">Contato</h2>
+        <ul>
+          <li>
+            <p>+ 99 0000 9999 0</p>
+          </li>
+          <li>
+            <p>@gmail.com</p>
+          </li>
+          <li>
+            <p>Rua Ema 2 Limoeiro</p>
+          </li>
+        </ul>
+      </div>
+      <div class="grid-4">
+        <h2 class="subtitulo-footer">Contato</h2>
+        <ul>
+          <li><a href="#"><img src="./img/redes-sociais/facebook.svg" alt=""></a></li>
+          <li><a href="#"><img src="./img/redes-sociais/whats.svg" alt=""></a></li>
+          <li><a href="#"><img src="./img/redes-sociais/instagram.svg" alt=""></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Fim footer -->
+
+</body>
+
+</html>

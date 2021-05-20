@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="114" height="116" viewBox="0 0 114 116">
+  <g id="instagram" transform="translate(-123 -347)">
+    <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(123 347)" fill="none" stroke="#2962ff" stroke-width="4">
+      <rect width="114" height="116" rx="6" stroke="none"/>
+      <rect x="2" y="2" width="110" height="112" rx="4" fill="none"/>
+    </g>
+    <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(209 356)" fill="none" stroke="#2962ff" stroke-width="4">
+      <rect width="18" height="17" rx="6" stroke="none"/>
+      <rect x="2" y="2" width="14" height="13" rx="4" fill="none"/>
+    </g>
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(147 371)" fill="none" stroke="#2962ff" stroke-width="4">
+      <circle cx="34" cy="34" r="34" stroke="none"/>
+      <circle cx="34" cy="34" r="32" fill="none"/>
+    </g>
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(169 393)" fill="none" stroke="#2962ff" stroke-width="4">
+      <circle cx="12" cy="12" r="12" stroke="none"/>
+      <circle cx="12" cy="12" r="10" fill="none"/>
+    </g>
+    <path id="Path_10" data-name="Path 10" d="M125.462,380.273h35" fill="none" stroke="#2962ff" stroke-width="4"/>
+    <path id="Path_11" data-name="Path 11" d="M202.152,380.273h35" transform="translate(-0.432)" fill="none" stroke="#2962ff" stroke-width="4"/>
+  </g>
+</svg>

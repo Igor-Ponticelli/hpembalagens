@@ -1,0 +1,11 @@
+.sobre {
+  margin-top: 30px;
+}
+.sobre .btn-sobre::before {
+  content: "";
+  background: #c69e53;
+  width: 100px;
+  height: 3px;
+  display: block;
+  margin: 0 auto 20px;
+}

@@ -1,0 +1,42 @@
+.intro h2 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.3em;
+  line-height: 1.4em;
+  letter-spacing: 0.2em;
+  color: #000;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.intro h2::after {
+  content: "";
+  display: block;
+  background: #000;
+  width: 100px;
+  height: 3px;
+  margin: 30px auto 0px;
+}
+.call-to-action {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.call-to-action p {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.1em;
+  color: #000;
+  margin: 40px 0px 20px;
+}
+.bg-produtos {
+  background-color: #2962ff;
+}
+.produtos {
+  margin-top: 10px;
+}
+.produtos li {
+  margin-top: 30px;
+}
+.produtos .produtos_lista h3 {
+  background-color: #fff;
+  color: #2962ff;
+}

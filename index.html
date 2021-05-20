@@ -24,30 +24,36 @@
 
 <body>
 
+  <!-- Nav -->
   <header class="bg-header">
     <div class="container">
-      <a href=""><span class="grid-4">H&P - Embalagens</span></a>
+      <a href="#"><span class="grid-4">H&P - Embalagens</span></a>
       <nav>
         <ul class="grid-12">
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Produtos</a></li>
-          <li><a href="#">Produção</a></li>
-          <li><a href="#">Contato</a></li>
+          <li><a href="/sobre.html">Sobre</a></li>
+          <li><a href="/produtos.html">Produtos</a></li>
+          <li><a href="/producao.html">Produção</a></li>
+          <li><a href="/contato.html">Contato</a>
+          </li>
         </ul>
       </nav>
     </div>
   </header>
+  <!-- Fim nav -->
 
+  <!-- Introdução -->
   <section class="bg-introducao">
     <div class="container introducao">
       <h1 class="titulo">H&P - Embalagens</h1>
       <blockquote class="quote-intro">
         <p>Tenha sempre em seu estoque, produtos de qualidade e de elegância</p>
       </blockquote>
-      <a href="#" class="btn">Pedir Orçamento</a>
+      <a href="/contato.html" class="btn">Pedir Orçamento</a>
     </div>
   </section>
+  <!-- Fim introdução -->
 
+  <!-- Produtos -->
   <section class="container produtos separador">
     <h2 class="subtitulo-blue">
       Produtos
@@ -74,9 +80,10 @@
     </ul>
     <p>Conheça mais nossos produtos</p>
     <a href="#" class="btn-call">Produtos</a>
-
   </section>
+  <!-- Fim produtos -->
 
+  <!-- Sobre -->
   <section class="sobre">
     <h2 class="subtitulo-blue">
       Sobre
@@ -95,7 +102,7 @@
     </h3>
     <div class="container">
       <div class="grid-8">
-        <img src="./img/qualidade.png" alt="Qualdidade">
+        <img src="./img/qualidade.png" alt="Qualididade">
       </div>
       <div class="grid-8">
         <ul>
@@ -116,18 +123,46 @@
       <a href="#" class="btn-call">Sobre</a>
     </div>
   </section>
+  <!-- Fim sobre -->
 
-  <section class="">
+  <!-- Produção -->
+  <div class="separador container"></div>
+  <section class="container producao">
+    <h2 class="subtitulo-blue">
+      Produção
+    </h2>
+
+
+    <div class="grid-16 mensagem">
+
+      <h3>
+        Conseguimos produzir em uma escala regional. Cada vez mais, os pedidos aumentam e vamos atrás de mais conhecimento e produção.
+      </h3>
+      <img src="./img/producao.jpeg" alt="Producao">
+      <h4>O por quê?</h4>
+      <p>Queremos mostrar nosso trabalho de qualidade e fazer todos nos conhecer. Venha fazer parte dos nossos clientes e não irá se desapontar</p>
+      <img src="./img/producao-1.png" alt="Producao-1">
+    </div>
+    <div class="grid-6 clientes">
+      <h5>O que eles dizem?</h5>
+    </div>
+    <div class="quote grid-10 clientes">
+      <blockquote>
+        <p>“Aqueles que ainda não possuem um produto da HP, não sabem o que estão perdendo.”</p>
+        <cite>Bernardo</cite>
+      </blockquote>
+    </div>
 
   </section>
+  <!-- Fim produção -->
 
+  <!-- Contato -->
+  <div class="separador container"></div><!-- POSSO USAR NO CONTATO -->
 
-  <!-- POSSO USAR NO CONTATO -->
-
-  <!-- 
-  <section class="bg-contato">
-    <div class="contato container">
-      <form id="form_orcamento" method="POST" action="./enviar-sendgrid.php" class="grid-8 contato_form formphp">
+  <section class="container ctt">
+    <h2 class="subtitulo-blue">Contato</h2>
+    <div class="contato grid-8">
+      <form id="form_orcamento" method="POST" action="./enviar-sendgrid.php" class="contato_form formphp">
         <label for="nome">Nome</label>
         <input type="text" id="nome" name="nome" required>
         <label for="email">E-mail</label>
@@ -136,7 +171,7 @@
         <input type="text" id="telefone">
         <label for="espec">Especificações</label>
         <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
-        <button id="enviar" name="enviar" type="submit" class="btn btn-preto">Enviar</button>
+        <button id="enviar" name="enviar" type="submit" class="btn btn-contato">Enviar</button>
       </form>
     </div>
 
@@ -149,14 +184,46 @@
 
       <h3>Redes socias</h3>
       <ul>
-        <li><a href="#"><img src="./img/redes-sociais/facebook.svg" alt="Facebook"></a></li>
-        <li><a href="#"><img src="./img/redes-sociais/instagram.svg" alt="Instagram"></a></li>
-        <li><a href="#"><img src="./img/redes-sociais/twitter.svg" alt="Twitter"></a></li>
+        <li><a href="#"><img src="./img/redes-sociais/facebook.svg" width="32px" height="32px" alt="Facebook"></a></li>
+        <li><a href="#"><img src="./img/redes-sociais/instagram.svg" width="32px" height="32px" alt="Instagram"></a></li>
+        <li><a href="#"><img src="./img/redes-sociais/whats.svg" width="32px" height="32px" alt="Whatsapp"></a></li>
       </ul>
     </div>
-  </section> -->
+  </section>
+  <!-- Fim contato -->
 
-  <!-- USAR NO CONTATO -->
+  <!-- Footer -->
+  <footer class="bg-footer">
+    <div class="container">
+      <div class="footer-sobre grid-8">
+        <h2 class="subtitulo-footer">Sobre</h2>
+        <p>Aqueles que ainda não possuem um produto da HP, não sabem o que estão perdendo.</p>
+      </div>
+      <div class="grid-4">
+        <h2 class="subtitulo-footer">Contato</h2>
+        <ul>
+          <li>
+            <p>+ 99 0000 9999 0</p>
+          </li>
+          <li>
+            <p>@gmail.com</p>
+          </li>
+          <li>
+            <p>Rua Ema 2 Limoeiro</p>
+          </li>
+        </ul>
+      </div>
+      <div class="grid-4">
+        <h2 class="subtitulo-footer">Contato</h2>
+        <ul>
+          <li><a href="#"><img src="./img/redes-sociais/facebook.svg" width="46px" alt=""></a></li>
+          <li><a href="#"><img src="./img/redes-sociais/whats.svg" width="46px" alt=""></a></li>
+          <li><a href="#"><img src="./img/redes-sociais/instagram.svg" width="46px" alt=""></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!-- Fim footer -->
 
 </body>
 

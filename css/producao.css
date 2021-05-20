@@ -1,0 +1,85 @@
+.quote-producao {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quote-producao blockquote p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.3em;
+}
+.quote-producao blockquote cite {
+  display: block;
+  text-align: right;
+  margin-top: 25px;
+  font-size: 1.2em;
+  color: #2962ff;
+}
+.quote-producao blockquote::after {
+  content: "";
+  display: block;
+  background: #c69e53;
+  width: 100px;
+  height: 3px;
+  margin: 10px auto 0;
+}
+
+.quote-producao blockquote::before {
+  content: "";
+  display: block;
+  background: #c69e53;
+  width: 100px;
+  height: 3px;
+  margin: 0 auto 50px;
+}
+.conteudo img {
+  width: 100%;
+  margin: 0 auto;
+}
+.conteudo p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  text-align: center;
+  line-height: 1.5em;
+}
+.conteudo p::before,
+.conteudo p::after {
+  content: "";
+  display: block;
+  margin: 30px auto;
+  width: 100px;
+  height: 3px;
+  background: #c69e53;
+}
+.producao-lista,
+.producao-img {
+  margin-top: 30px;
+}
+.producao-lista h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #2962ff;
+  margin-bottom: 20px;
+}
+.producao-lista ul li {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+.producao-img {
+  display: block;
+  margin-bottom: 50px;
+}
+.conteudo h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.call-to-action {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
