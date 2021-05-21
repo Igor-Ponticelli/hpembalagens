@@ -18,6 +18,8 @@
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/grid.css">
   <link rel="stylesheet" href="./css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+
 
 </head>
 
@@ -44,17 +46,17 @@
   <!-- Introdução -->
   <section class="bg-introducao">
     <div class="container introducao">
-      <h1 class="titulo">H&P - Embalagens</h1>
-      <blockquote class="quote-intro">
+      <h1 data-anime="400" class="titulo fadeInDown">H&P - Embalagens</h1>
+      <blockquote data-anime="800" class="quote-intro fadeInDown">
         <p>Tenha sempre em seu estoque, produtos de qualidade e de elegância</p>
       </blockquote>
-      <a href="/contato.html" class="btn">Pedir Orçamento</a>
+      <a href="/contato.html" data-anime="1200" class="btn fadeInDown">Pedir Orçamento</a>
     </div>
   </section>
   <!-- Fim introdução -->
 
   <!-- Produtos -->
-  <section class="container produtos separador">
+  <section data-anime="1600" class="container produtos separador fadeInDown">
     <h2 class="subtitulo-blue">
       Produtos
     </h2>
@@ -84,7 +86,7 @@
   <!-- Fim produtos -->
 
   <!-- Sobre -->
-  <section class="sobre">
+  <section data-anime="2000" class="sobre fadeInDown">
     <h2 class="subtitulo-blue">
       Sobre
     </h2>
@@ -126,8 +128,8 @@
   <!-- Fim sobre -->
 
   <!-- Produção -->
-  <div class="separador container"></div>
-  <section class="container producao">
+  <div data-anime="2000" class="separador container"></div>
+  <section data-anime="2000" class="container producao fadeInDown">
     <h2 class="subtitulo-blue">
       Produção
     </h2>
@@ -146,10 +148,18 @@
     <div class="grid-6 clientes">
       <h5>O que eles dizem?</h5>
     </div>
-    <div class="quote grid-10 clientes">
-      <blockquote>
+    <div data-slide="quote" class="quote grid-10 clientes">
+      <blockquote class="quote_clientes">
         <p>“Aqueles que ainda não possuem um produto da HP, não sabem o que estão perdendo.”</p>
         <cite>Bernardo</cite>
+      </blockquote>
+      <blockquote class="quote_clientes">
+        <p>“Aqueles que ainda não possuem um produto ”</p>
+        <cite>dada</cite>
+      </blockquote>
+      <blockquote class="quote_clientes">
+        <p>“AqueldsadsadasdadasdasP, não sabem o que estão perdendo.”</p>
+        <cite>joaooo</cite>
       </blockquote>
     </div>
     <div class="grid-16 btn-producao">
@@ -160,9 +170,9 @@
   <!-- Fim produção -->
 
   <!-- Contato -->
-  <div class="separador container"></div><!-- POSSO USAR NO CONTATO -->
+  <div data-anime="2000" class="separador container fadeInDown"></div><!-- POSSO USAR NO CONTATO -->
 
-  <section class="container ctt">
+  <section data-anime="2000" class="container ctt">
     <h2 class="subtitulo-blue">Contato</h2>
     <div class="contato grid-8">
       <form id="form_orcamento" method="POST" action="./enviar-sendgrid.php" class="contato_form formphp">
@@ -227,6 +237,13 @@
     </div>
   </footer>
   <!-- Fim footer -->
+
+  <!-- JavaScript -->
+  <script src="./js/simple-slide.js"></script>
+
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
+  <!-- JavaScript -->
 
 </body>
 

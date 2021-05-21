@@ -19,6 +19,8 @@
   <link rel="stylesheet" href="./css/grid.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/producao.css">
+  <script>document.documentElement.classList.add("js");</script>
+
 
 </head>
 
@@ -44,30 +46,38 @@
   <!-- Introdução -->
   <section class="bg-introducao">
     <div class="container introducao">
-      <h1 class="titulo">Produção</h1>
+      <h1 data-anime="400" class="titulo fadeInDown">Produção</h1>
     </div>
   </section>
   <!-- Fim introdução -->
 
   <!-- Produção -->
-  <section class="container">
-    <div class="grid-16 quote-producao">
-      <blockquote>
+  <section data-anime="800" class="container fadeInDown">
+    <div data-slide="quote" class="grid-16 quote-producao">
+      <blockquote class="quote_clientes">
         <p>“Aqueles que ainda não possuem um produto da HP, não sabem o que estão perdendo.”</p>
         <cite>Bernardo</cite>
       </blockquote>
+      <blockquote class="quote_clientes">
+        <p>“Aqueles que ainda não possuem um produto ”</p>
+        <cite>dada</cite>
+      </blockquote>
+      <blockquote class="quote_clientes">
+        <p>“AqueldsadsadasdadasdasP, não sabem o que estão perdendo.”</p>
+        <cite>joaooo</cite>
+      </blockquote>
     </div>
   </section>
-  <section class="container conteudo">
+  <section data-anime="1200" class="container conteudo fadeInDown">
     <div class="grid-16">
       <img src="./img/producao.jpeg" alt="producao">
       <p>Queremos mostrar nosso trabalho de qualidade e fazer todos nos conhecer. Venha fazer parte de nossos clientes e não irá se desapontar</p>
       <img src="./img/producao-1.png" alt="">
     </div>
-    <div class="grid-16">
+    <div data-anime="1600" class="grid-16 fadeInDown">
       <p>Nosso meio de produção protege o meio ambiente e é reciclavél</p>
     </div>
-    <div class="producao-lista grid-8">
+    <div data-anime="2000" class="producao-lista grid-8 fadeInDown">
       <h2>Produzimos</h2>
       <ul>
         <li>Fita gomada</li>
@@ -78,10 +88,10 @@
       </ul>
     </div>
 
-    <div class="producao-img grid-8">
+    <div data-anime="2000" class="producao-img grid-8 fadeInDown">
       <img src="./img/qualidade.png" alt="">
     </div>
-    <div class="call-to-action">
+    <div data-anime="2200" class="call-to-action fadeInDown">
       <h3>Conheça mais nossos produtos</h3>
       <a href="./produtos.html" class="btn-call">Produtos</a>
     </div>
@@ -122,6 +132,12 @@
   </footer>
   <!-- Fim footer -->
 
+  <!-- JavaScript -->
+  <script src="./js/simple-slide.js"></script>
+
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
+  <!-- JavaScript -->
 </body>
 
 </html>

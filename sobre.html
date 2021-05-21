@@ -19,6 +19,8 @@
   <link rel="stylesheet" href="./css/grid.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/sobre.css">
+  <script>document.documentElement.classList.add("js");</script>
+
 
 </head>
 
@@ -45,13 +47,13 @@
   <!-- Introdução -->
   <section class="bg-introducao">
     <div class="container introducao">
-      <h1 class="titulo">Sobre</h1>
+      <h1 data-anime="400" class="titulo fadeInDown">Sobre</h1>
     </div>
   </section>
   <!-- Fim introdução -->
 
   <!-- Sobre -->
-  <section class="sobre">
+  <section data-anime="800" class="sobre fadeInDown">
     <div class="container">
       <div class="grid-6">
         <p>Comprometimento individual a um esforço conjunto — isso é o que faz um time funcionar, uma empresa funcionar, uma sociedade funcionar, uma civilização funcionar.</p>
@@ -61,10 +63,10 @@
         <img src="./img/empresa.png" alt="Empresa">
       </div>
     </div>
-    <h3 class="subtitulo">
+    <h3 data-anime="1200" class="subtitulo fadeInDown">
       Qualidade por serviço
     </h3>
-    <div class="container">
+    <div data-anime="1600" class="container fadeInDown">
       <div class="grid-8">
         <img src="./img/qualidade.png" alt="Qualididade">
       </div>
@@ -82,7 +84,7 @@
         </ul>
       </div>
     </div>
-    <div class="container btn-sobre">
+    <div data-anime="2000" class="container btn-sobre fadeInDown">
       <p>Venha conhecer mais sobre a nossa produção</p>
       <a href="./produtos.html" class="btn-call">Produção</a>
     </div>
@@ -121,7 +123,10 @@
     </div>
   </footer>
   <!-- Fim footer -->
-
+  <!-- JavaScript -->
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
+  <!-- JavaScript -->
 </body>
 
 </html>

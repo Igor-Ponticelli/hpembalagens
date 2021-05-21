@@ -19,6 +19,8 @@
   <link rel="stylesheet" href="./css/grid.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/produtos.css">
+  <script>document.documentElement.classList.add("js");</script>
+
 
 </head>
 
@@ -44,13 +46,13 @@
   <!-- Introdução -->
   <section class="bg-introducao">
     <div class="container introducao">
-      <h1 class="titulo">Produtos</h1>
+      <h1 data-anime="400" class="titulo fadeInDown">Produtos</h1>
     </div>
   </section>
   <!-- Fim introdução -->
 
   <!-- Produtos -->
-  <div class="container intro">
+  <div data-anime="800" class="container intro fadeInDown">
     <h2>Buscamos sempre a qualidade em nossos produtos</h2>
     <div class="call-to-action">
       <p>Tem alguma duvida ou quer fazer um orçamento? Entre em contato</p>
@@ -58,7 +60,7 @@
     </div>
   </div>
 
-  <div class="bg-produtos">
+  <div data-anime="1200" class="bg-produtos fadeInDown">
     <section class="container produtos">
       <ul class="produtos_lista">
         <li class="grid-1-3">
@@ -119,7 +121,7 @@
     </section>
   </div>
   <section class="container">
-    <div class="call-to-action">
+    <div data-anime="1600" class="call-to-action fadeInDown">
       <p>Venha conhecer mais sobre a empresa e como ela surgiu!!</p>
       <a href="./sobre.html" class="btn-call">Sobre</a>
     </div>
@@ -159,6 +161,10 @@
   </footer>
   <!-- Fim footer -->
 
+  <!-- JavaScript -->
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
+  <!-- JavaScript -->
 </body>
 
 </html>
