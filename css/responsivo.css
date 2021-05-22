@@ -1,0 +1,138 @@
+/*Estilo para tablets*/
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  /* Início Estilos Gerais */
+  .separador::after {
+    width: 70%;
+  }
+  /* fim Estilos Gerais */
+  /* Nav */
+  .bg-header a span {
+    margin-top: 5px;
+  }
+  /* Fim nav */
+  /* Produtos */
+  .produtos .produtos_lista li img {
+    width: 100%;
+  }
+  /* fim Produtos */
+  /* Início Sobre */
+  .sobre-conteudo img {
+    width: 100%;
+  }
+  /* fim Sobre */
+}
+
+/* Estilo para smartphones */
+@media only screen and (max-width: 787px) {
+  /* Estilos gerais */
+  .titulo {
+    font-size: 1.2em;
+  }
+  .subtitulo-blue {
+    font-size: 1.18em;
+  }
+  .subtitulo-blue::after {
+    width: 60px;
+    height: 2px;
+    margin: 10px auto 10px;
+  }
+  .btn {
+    border: 2px solid #fff;
+    font-size: 1em;
+  }
+  .btn-call {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 2px solid #2962ff;
+  }
+  .btn-call:hover {
+    border-bottom: 2px solid #5381ff;
+  }
+  .separador::after {
+    width: 70%;
+  }
+  /* Estilos gerais */
+  /* Nav */
+  .bg-header {
+    padding: 0;
+  }
+  .bg-header a span {
+    font-size: 1em;
+    display: flex;
+    max-width: 60%;
+  }
+  .bg-header nav ul li {
+    display: none;
+  }
+
+  /* fim nav */
+  /* Produtos */
+  .produtos .produtos_lista h3 {
+    font-size: 1.1rem;
+  }
+  .produtos .produtos_lista img {
+    width: 100%;
+  }
+  .produtos p {
+    font-size: 1.1em;
+  }
+  /* Fim produtos */
+  /* Sobre */
+  .sobre .subtitulo-blue {
+    margin-bottom: 30px;
+  }
+  .sobre-conteudo img {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .sobre .subtitulo {
+    font-size: 1.3em;
+    margin: 10px;
+  }
+  .sobre .btn-sobre p {
+    font-size: 1.1em;
+  }
+  /* Fim sobre */
+  /* Procução */
+  .producao .mensagem h3 {
+    font-size: 1.2em;
+  }
+  .producao .mensagem p {
+    text-align: center;
+    width: 100%;
+  }
+  .producao h4,
+  .producao h5 {
+    text-align: center;
+  }
+  .producao .quote blockquote p {
+    max-width: 100%;
+  }
+  .btn-producao {
+    margin: 0;
+  }
+  /* Fim produção */
+  /* Contato */
+  .ctt {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .contato_form {
+    padding-right: 0;
+  }
+  /* Fim contato */
+  /* Footer */
+  footer ul .footer {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  footer ul li a {
+    display: block;
+  }
+  footer ul li a img {
+    width: 32px;
+    height: 32px;
+  }
+  /* Fim footer */
+}

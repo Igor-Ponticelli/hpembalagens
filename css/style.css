@@ -121,19 +121,6 @@
 .bg-header nav ul li a:hover {
   border-bottom: 2px solid #fff;
 }
-/* .bg-header nav ul ul {
-  position: absolute;
-  display: none;
-  min-width: 200px;
-}
-.bg-header nav ul ul li a {
-  display: block;
-}
-.bg-header nav ul li:hover ul {
-  display: block;
-  background: #c69e53;
-} */
-
 /* fim Header*/
 
 /* Início intro */
@@ -432,6 +419,7 @@ footer ul li a:hover {
 }
 footer ul li a img {
   width: 32px;
+  height: 32px;
 }
 
 /* fim footer */
